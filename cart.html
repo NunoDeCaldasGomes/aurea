@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mon Panier — Layeressence</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="menu">
+                <div class="logo-container">
+                    <a href="index.html">
+                        <h1 class="site-logo">Aurea</h1>
+                    </a>
+                </div>
+                <div class="menu-toggle4">☰</div>
+            </nav>
+            <div class="sidebar">
+                <a href="index.html#apropos">À propos</a>
+                <a href="index.html#nosproduits">Nos Produits</a>
+                <a href="index.html">Accueil</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">Se connecter</a>
+                <a href="register.html">S'inscrire</a>
+                <a href="cart.html">Panier</a>
+            </div>
+        </header>
+        <main>
+            <section class="page">
+                <div class="section-content">
+                    <h2>Votre Panier</h2>
+                    <div id="cart-items" class="cart-container">
+                    </div>
+                    <div class="cart-summary">
+                        <div class="summary-total">
+                            <h3>Total: <span id="cart-total">0€</span></h3>
+                        </div>
+                        <div class="summary-actions">
+                            <button id="clear-cart" class="btn btn-danger">Vider</button>
+                            <button id="checkout" class="btn btn-primary">Procéder à la commande</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Layeressence. Tous droits réservés.</p>
+            <p>&copy; De Caldas Gomes Nuno Miguel. Tous droits réservés.</p>
+        </footer>
+        <script src="app.js" defer></script>
+        <script src="menu.js" defer></script>
+    </body>
+</html>

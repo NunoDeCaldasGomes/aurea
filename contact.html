@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Layeressence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="menu">
+            <div class="logo-container">
+                <a href="index.html">
+                        <h1 class="site-logo">Aurea</h1>
+                    </a>
+            </div>
+            <div class="menu-toggle4">☰</div>
+        </nav>
+        <div class="sidebar">
+            <a href="index.html#apropos">À propos</a>
+            <a href="index.html#nosproduits">Nos Produits</a>
+            <a href="index.html">Accueil</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Se connecter</a>
+            <a href="register.html">S'inscrire</a>
+            <a href="cart.html">Panier</a>
+        </div>
+    </header>
+    <main>
+        <section class="page">
+            <div class="section-content" style="max-width: 750px; margin: 0 auto;">
+                <h2>Nous Contacter</h2>
+                <p style="text-align: center; color: var(--text-light); margin-bottom: 50px; font-weight: 300;">
+                    Une question? Un retour? Nous écouter vous intéresse. Contactez-nous.
+                </p>
+                
+                <fieldset>
+                    <legend>Message</legend>
+                    <form>
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                        
+                        <label for="email">Adresse E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Votre e-mail" required>
+                        
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required>
+                        
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Votre message..." required></textarea>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 20px;">Envoyer</button>
+                    </form>
+                </fieldset>
+                
+                <div class="contact-info" style="margin-top: 60px;">
+                    <div class="about-grid">
+                        <div class="about-card">
+                            <h3>Téléphone</h3>
+                            <p><a href="tel:+33620412459" style="color: var(--bordeaux); text-decoration: none;">+33 6 20 41 24 59</a></p>
+                        </div>
+                        <div class="about-card">
+                            <h3>E-mail</h3>
+                            <p><a href="mailto:decaldasgomes@gmail.com" style="color: var(--bordeaux); text-decoration: none;">decaldasgomes@gmail.com</a></p>
+                        </div>
+                        <div class="about-card">
+                            <h3>Localisation</h3>
+                            <p>75 Rue du Faubourg Saint-Honoré<br>75008 Paris, France</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Layeressence. Tous droits réservés.</p>
+        <p>&copy; De Caldas Gomes Nuno Miguel. Tous droits réservés.</p>
+    </footer>
+    <script src="menu.js" defer></script>
+    <script src="forms.js" defer></script>
+</body>
+</html>
