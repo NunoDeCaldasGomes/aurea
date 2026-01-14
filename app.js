@@ -20,13 +20,14 @@ const volumes = [
   { id: 'vol-100', name: '100ml', basePrice: 99, size: '100ml' },
   { id: 'vol-250', name: '250ml', basePrice: 149, size: '250ml' }
 ];
+
 const perfumeBases = [
   { 
     id: 'base-1', 
     name: 'Votre composition', 
     image: 'aurea.png',
     description: 'Une base élégante et intemporelle',
-    defaultScents: ['jasmin', 'rose', 'bergamote']
+    defaultScents: ['lavande', 'bois', 'menthe']
   },
   { 
     id: 'base-2', 
@@ -48,6 +49,13 @@ const perfumeBases = [
     image: 'citrusfresh.png',
     description: 'Un parfum vivifiant aux agrumes',
     defaultScents: ['agrume', 'bergamote', 'menthe']
+  },
+  {
+    id: 'base-5',
+    name: 'Vanilla Dream',
+    image: 'vanilladream.png',
+    description: 'Une douceur sucrée et enveloppante',
+    defaultScents: ['vanille', 'ambre', 'musc']
   },
 ];
 
@@ -420,5 +428,6 @@ document.addEventListener('DOMContentLoaded', () => {
     bindCartActions();
 
 });
+
 
 
