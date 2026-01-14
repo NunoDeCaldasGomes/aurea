@@ -26,6 +26,7 @@ const perfumeBases = [
     name: 'Votre composition', 
     image: 'aurea.png',
     description: 'Une base élégante et intemporelle',
+    defaultScents: ['jasmin', 'rose', 'bergamote']
   },
   { 
     id: 'base-2', 
@@ -419,4 +420,5 @@ document.addEventListener('DOMContentLoaded', () => {
     bindCartActions();
 
 });
+
 
