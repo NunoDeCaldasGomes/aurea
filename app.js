@@ -47,7 +47,7 @@ const perfumeBases = [
     image: 'citrusfresh.png',
     description: 'Un parfum vivifiant aux agrumes',
     defaultScents: ['agrume', 'bergamote', 'menthe']
-  }
+  },
 ];
 
 const CART_KEY = 'layeressence_cart';
@@ -419,3 +419,4 @@ document.addEventListener('DOMContentLoaded', () => {
     bindCartActions();
 
 });
+
