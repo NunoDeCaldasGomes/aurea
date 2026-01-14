@@ -47,14 +47,7 @@ const perfumeBases = [
     image: 'citrusfresh.png',
     description: 'Un parfum vivifiant aux agrumes',
     defaultScents: ['agrume', 'bergamote', 'menthe']
-  },
-  {
-    id: 'base-5',
-    name: 'Vanilla Dream',
-    image: 'vanilladream.png',
-    description: 'Une douceur sucrée et enveloppante',
-    defaultScents: ['vanille', 'ambre', 'musc']
-  },
+  }
 ];
 
 const CART_KEY = 'layeressence_cart';
@@ -424,4 +417,5 @@ document.addEventListener('DOMContentLoaded', () => {
     renderCatalog();
     renderCartPage();
     bindCartActions();
+
 });
